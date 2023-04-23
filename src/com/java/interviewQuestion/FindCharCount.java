@@ -1,0 +1,18 @@
+package com.java.interviewQuestion;
+
+public class FindCharCount {
+    public static void main(String[] args) {
+        String str= "Techtorial great  academy for beginners";
+        char c='e';
+        int count=0;
+
+        for(int i=0; i<str.length(); i++){
+        if(str.charAt(i)==c){
+            count++;
+        }
+
+        }
+
+        System.out.println(count);
+    }
+}
